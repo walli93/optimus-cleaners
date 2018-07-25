@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clean"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/contact"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/services1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/title2"
+
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/services1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/services2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/services"
+
+        android:textAlignment="center"
+        android:textColor="@color/colorItems"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/services2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/services3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/services2"
+
+        android:textAlignment="center"
+        android:textColor="@color/colorItems"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/services3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/services4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:text="@string/services3"
+        android:textAlignment="center"
+        android:textColor="@color/colorItems"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/services4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:paddingBottom="15dp"
+        android:text="@string/services4"
+        android:textAlignment="center"
+        android:textColor="@color/colorItems"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/title2"
+        android:layout_centerHorizontal="true"
+        android:text="We are open daily. Call 0711189674"
+        android:textColor="@color/colorTitles"
+        android:textSize="15sp" />
+
+</RelativeLayout>

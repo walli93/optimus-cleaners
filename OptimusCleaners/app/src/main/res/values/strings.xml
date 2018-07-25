@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Optimus Cleaners</string>
+    <string name="title">Optimus General Cleaners</string>
+    <string name="title2">Services offered</string>
+    <string name="services">All general cleaning</string>
+    <string name="services2">Domestic and commercial</string>
+    <string name="services3">Fumigation services</string>
+    <string name="services4">Lawn maintenance</string>
+</resources>
